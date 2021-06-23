@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+				<title>JS Assignment 16 - Todo App</title>
+				<link rel="stylesheet" href="style.css">
+</head>
+<body>
+				<div class="todo-app">
+								<div class="app-title-div">
+												<h1>Todo App</h1>
+								</div>
+								<div class="task-input-div">
+												<div class="delete-all-btn-div">
+												   <button class="delete-all-btn" id="delete-all-btn" onclick="delAllTasks()">Delete All</button>
+												</div>
+												<div class="add-btn-div">
+																<div>
+												      <input id="task-input-box" type="text" maxlength="40">
+												      <button id="add-task-btn" onclick="addTask()">Add Task</button>
+												   </div>
+												</div>
+								</div>
+								<div class="task-list-div">
+												<ul id="task-list">	</ul>
+								</div>
+				</div>
+				
+				<script src="app.js"></script>
+</body>
+</html>
